@@ -1,0 +1,120 @@
+body{
+	background-color: #505050;
+}
+
+header{
+	background-color: #909090;
+	position: relative;
+	width: 1407px;
+	border-radius: 7px;
+	margin: auto;
+	box-shadow: 7px 7px 7px;
+}
+
+header img.day42{
+	margin: 8px 8px 8px 8px;
+	height: 100px;
+}
+
+header img.loupe{
+	height: 100%;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+header img.refresh{
+	height: 20px;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+
+header img.close{
+	height: 20px;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
+.leftbox{
+	background-color: #909090;
+	float: left;
+	height: 477px;
+	width: 126px;
+	margin-left: 242px;
+	margin-top: 20px;
+	border-radius: 7px;
+	box-shadow: 7px 7px 7px;
+}
+
+.fleche{
+	width: 77px;
+	height: 77px;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.main{
+	width: 77px;
+	height: 77px;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.oeil{
+	width: 77px;
+	height: 77px;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.outil{
+	width: 77px;
+	height: 77px;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.msg{
+	width: 77px;
+	height: 77px;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.rightbox{
+	background-color: #909090;
+	float: left;
+	height: 477px;
+	width: 126px;
+	margin-left: 1052px;
+	margin-top: 20px;
+	border-radius: 7px;
+	box-shadow: 7px 7px 7px;
+}
+
+.book{
+	width: 52%;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.towel{
+	width: 62%;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.brick{
+	width: 52%;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.centerbox{
+	float: left;
+	width: 0%;
+	margin-left: 26px;
+	margin-top: 20px;
+}
