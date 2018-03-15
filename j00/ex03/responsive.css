@@ -1,0 +1,77 @@
+h1{
+	text-align: center;
+	font-size: 3vw;
+}
+div{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 2vw;
+}
+table{
+	border-collapse: col;
+	color: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+td{
+	position: relative;
+	border: 1px solid black;
+}
+.num{
+	font-size: 1vw;
+	position: absolute;
+	text-align: left;
+	margin: 0;
+	bottom: 0;
+}
+.mass{
+	font-size: 1vw;
+	position: absolute;
+	text-align: right;
+	margin-right: 3px;
+	margin: 0;
+	top: 0;
+	right: 0;
+}
+.noborder{
+	border: none;
+}
+.violet{
+	background-color: #B299E6;
+}
+.gray{
+	background-color: #DED5D5;
+}
+.lightgreen{
+	background-color: #ACF2AD;
+}
+.quitepink{
+	background-color: #DFA0A0;
+}
+.yellow{
+	background-color: #E9E56F;
+}
+.orange{
+	background-color: #D9A933;
+}
+.yellorange{
+	background-color: #EAC58A;
+}
+.blue{
+	background-color: #8BC0F1;
+}
+.pink{
+	background-color: #F18BEF;
+}
+.bluegreen{
+	background-color: #6FD4B5;
+}
+.quiteblue{
+	background-color: #81D9E5;
+}

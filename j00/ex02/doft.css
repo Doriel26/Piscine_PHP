@@ -1,5 +1,11 @@
 body{
 	background-color: #505050;
+	margin: 18px 0 0 8px;
+}
+
+.website {
+    margin: 0 auto;
+    width: 1418px;
 }
 
 header{
@@ -13,11 +19,11 @@ header{
 
 header img.day42{
 	margin: 8px 8px 8px 8px;
-	height: 100px;
+	height: 107px;
 }
 
 header img.loupe{
-	height: 100%;
+	height: 107%;
 	position: absolute;
 	top: 10px;
 	right: 30px;
@@ -26,23 +32,24 @@ header img.loupe{
 header img.refresh{
 	height: 20px;
 	position: absolute;
-	top: 4px;
-	right: 4px;
+	top: 7px;
+	right: 7px;
 }
 
 header img.close{
 	height: 20px;
 	position: absolute;
-	bottom: 4px;
-	right: 4px;
+	bottom: 7px;
+	right: 7px;
 }
 
 .leftbox{
 	background-color: #909090;
 	float: left;
+	position: relative;
 	height: 477px;
 	width: 126px;
-	margin-left: 242px;
+	margin-left: 44px;
 	margin-top: 20px;
 	border-radius: 7px;
 	box-shadow: 7px 7px 7px;
@@ -65,8 +72,10 @@ header img.close{
 .oeil{
 	width: 77px;
 	height: 77px;
-	margin-left: 26px;
+	margin-left: 21px;
 	margin-top: 10px;
+	border: 5px solid red;
+	border-radius: 7px;
 }
 
 .outil{
@@ -88,7 +97,7 @@ header img.close{
 	float: left;
 	height: 477px;
 	width: 126px;
-	margin-left: 1052px;
+	margin-left: 1062px;
 	margin-top: 20px;
 	border-radius: 7px;
 	box-shadow: 7px 7px 7px;
@@ -107,14 +116,73 @@ header img.close{
 }
 
 .brick{
-	width: 52%;
-	margin-left: 26px;
+	width: 91%;
+	margin-left: 7px;
 	margin-top: 10px;
 }
 
 .centerbox{
 	float: left;
 	width: 0%;
-	margin-left: 26px;
+	margin-left: 22px;
 	margin-top: 20px;
+}
+
+.cluster{
+	border: solid 8px #909090;
+	border-radius: 7px;
+	box-shadow: 7px 7px 7px;
+}
+
+.relative{
+	position: relative;
+}
+
+.textbox{
+    background-color: #88ff89;
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 546px;
+    left: -26px;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 7px;
+}
+
+.bold{
+	font-family: Times;
+	font-size: 31px;
+}
+
+.shadow{
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+.italic{
+	font-style: italic;
+}
+
+form input[type="text"] {
+    margin-left: 2px;
+    width: 376px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    height: 15px;
+}
+
+form input[type="submit"] {
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+    background-color: #f4eff3;
+    background: #0079FF;
+    margin-left: 4px;
+    height: 22px;
+    font-size:12px;
+    letter-spacing: 1px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
 }
