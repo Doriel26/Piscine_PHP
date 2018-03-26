@@ -73,10 +73,8 @@ header img.close{
 .oeil{
 	width: 70px;
 	height: 70px;
-	margin-left: 29px;
+	margin-left: 34px;
 	margin-top: 3px;
-	border: 5px solid red;
-	border-radius: 5px;
 }
 
 .outil{
@@ -137,6 +135,13 @@ header img.close{
 	border: solid 10px #909090;
 	border-radius: 9px;
 	box-shadow: 9px 9px 9px;
+}
+
+.megatron{
+	border: solid 10px #909090;
+	border-radius: 9px;
+	box-shadow: 9px 9px 9px;
+	width: 100%;
 }
 
 .textbox{
