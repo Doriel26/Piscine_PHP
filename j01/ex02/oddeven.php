@@ -7,7 +7,7 @@ while ($num)
 {
 	$nl = explode("\n", $num);
 	$nb = $nl[0];
-	if (is_numeric($nb))
+	if (is_numeric($nb) && ctype_digit($nb))
 	{
 		if ((int)$nb % 2 == 0)
 			echo "Le chiffre " .$nb. " est Pair\n";
