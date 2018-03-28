@@ -1,5 +1,5 @@
 <?php
-function	ft_is_sort($tab)
+function ft_is_sort($tab)
 {
 	$i = 0;
 	$tmp = 0;

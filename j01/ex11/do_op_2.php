@@ -6,7 +6,7 @@ if ($argc != 2)
 }
 else
 {
-	$tab = sscanf($argv[1], "%d %c %d");
+	$tab = sscanf($argv[1], "%f %c %f %s");
 	if ($tab[0] && $tab[1] && ($tab[2] != NULL || (($tab[1] == "*"
 		|| $tab[1] == "+" || $tab[1] == "-") && $tab[2] == "0")) && !$tab[3])
 	{

@@ -1,15 +1,17 @@
 #!/usr/bin/php
 <?php
-$array = array();
+$tab = array();
 unset($argv[0]);
 foreach ($argv as $val)
 {
 	$tmp = explode(' ', $val);
-	$str = array_filter($tmp);
-	foreach ($str as $val2)
-		$array[] = $val2;
+	foreach($tmp as $elm)
+	{
+		if($elm != "")
+			$tab[] = $elm;
+	}
 }
-sort($array);
-foreach($array as $val)
+sort($tab);
+foreach($tab as $val)
 	echo "$val\n";
 ?>

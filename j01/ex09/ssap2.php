@@ -1,48 +1,54 @@
 #!/usr/bin/php
 <?php
-function ft_split($str)
+	function ft_split($str)
 	{
-		$tab = explode(' ', $str);
+		$tab = array();
+		$val = explode(' ', $str);
+		foreach($val as $elm)
+		{
+			if($elm != "")
+				$tab[] = $elm;
+		}
 		sort($tab);
 		return ($tab);
-}
-$resultat = array();
+	}
+$res = array();
 if (count($argv) != 1)
 {
-	foreach($argv as $elements)
+	foreach($argv as $elem)
 	{
-		if ($elements != $argv[0])
+		if ($elem != $argv[0])
 		{
-			$tab = ft_split($elements);
-			$resultat = array_merge($resultat, $tab);
+			$tab = ft_split($elem);
+			$res = array_merge($res, $tab);
 		}
 	}
 $numeric = array();
-	foreach ($resultat as $element)
+	foreach ($res as $elem)
 	{
-		if (is_numeric($element) == TRUE)
+		if (is_numeric($elem) == TRUE)
 		{
-			$numeric[] = $element;
+			$numeric[] = $elem;
 		}
 	}
 	sort($numeric, SORT_STRING);
 
 $alpha = array();
-	foreach ($resultat as $element)
+	foreach ($res as $elem)
 	{
-		if (ctype_alpha($element) == TRUE)
+		if (ctype_alpha($elem) == TRUE)
 		{
-			$alpha[] = $element;
+			$alpha[] = $elem;
 		}
 	}
 $ascii = array();
 	sort($alpha, SORT_NATURAL | SORT_FLAG_CASE);
 
-	foreach ($resultat as $element)
+	foreach ($res as $elem)
 	{
-		if (is_numeric($element) == FALSE && ctype_alpha($element) == FALSE)
+		if (is_numeric($elem) == FALSE && ctype_alpha($elem) == FALSE)
 		{
-			$ascii[] = $element;
+			$ascii[] = $elem;
 		}
 	}
 	sort($ascii);

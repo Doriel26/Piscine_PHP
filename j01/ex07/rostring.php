@@ -2,11 +2,16 @@
 <?php
 	function ft_split($str)
 	{
+		$tab = array();
 		$val = explode(' ', $str);
-		$tab = array_filter($val);
+		foreach($val as $elm)
+		{
+			if($elm != "")
+				$tab[] = $elm;
+		}
 		return ($tab);
 	}
-	if ($argc > 1)
+	if ($argc > 1 && $argv[1])
 	{
 		$tab = ft_split($argv[1]);
 		$tmp = array_shift($tab);
