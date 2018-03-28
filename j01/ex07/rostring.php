@@ -11,7 +11,13 @@
 		$tab = ft_split($argv[1]);
 		$tmp = array_shift($tab);
 		array_push($tab, $tmp);
-		foreach ($tab as $fluxux)
-			echo "$fluxux ";
+		for ($i = 0; $i < count($tab); $i++)
+		{
+			if ($i == count($tab) - 1)
+				echo "$tab[$i]";
+			else
+				echo "$tab[$i] ";
+		}
+		echo "\n";
 	}
 ?>
